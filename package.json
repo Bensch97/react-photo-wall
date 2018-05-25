@@ -16,5 +16,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://Bensch97.github.io/myapp"
+  "homepage": "http://Bensch97.github.io/react-photo-wall"
 }

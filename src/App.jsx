@@ -40,7 +40,8 @@ class App extends Component {
               * and for loops are not. You'll learn more about this soon! 
               */}
             {photos.map( photo => 
-                <img alt={/* 3. Fill me in with the photo's filename */ photo.filename}
+                <img className="child"
+                     alt={/* 3. Fill me in with the photo's filename */ photo.filename}
                      key={/* 4. Fill me in with the photo's id */ photo.id}
                      src={/* 5. Fill me in with the photo's URL */ PHOTO_URL+photo.post_url}
                 />
